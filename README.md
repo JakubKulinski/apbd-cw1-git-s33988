@@ -1,1 +1,1 @@
-﻿README
+﻿Merge nie był fast-forward, ponieważ po utworzeniu gałęzi feature-max na gałęzi main pojawił się niezależny commit. Obie gałęzie rozwijały się równolegle dlatego git musiał utworzyć osobny commit scalający.
