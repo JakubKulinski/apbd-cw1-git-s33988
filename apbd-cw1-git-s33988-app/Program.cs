@@ -4,8 +4,14 @@ string firstInput = Console.ReadLine();
 Console.WriteLine("Enter second number:");
 string secondInput = Console.ReadLine();
 
-int firstNumber = int.Parse(firstInput);
-int secondNumber = int.Parse(secondInput);
+bool firstParsed = int.TryParse(firstInput, out int firstNumber);
+bool secondParsed = int.TryParse(secondInput, out int secondNumber);
+
+if (!firstParsed || !secondParsed)
+{
+    Console.WriteLine("Invalid input. Please enter valid integers.");
+    return;
+}
 
 int sum = StatisticsHelper.Sum(firstNumber, secondNumber);
 double average = StatisticsHelper.Average(firstNumber, secondNumber);
