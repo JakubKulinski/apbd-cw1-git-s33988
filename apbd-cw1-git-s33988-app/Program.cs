@@ -9,7 +9,7 @@ bool secondParsed = int.TryParse(secondInput, out int secondNumber);
 
 if (!firstParsed || !secondParsed)
 {
-    Console.WriteLine("Invalid data. Two whole numbers are required.");
+    Console.WriteLine("Invalid input. Please enter two integer values.");
     return;
 }
 
