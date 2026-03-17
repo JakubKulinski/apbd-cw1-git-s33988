@@ -1,2 +1,3 @@
-﻿Projekt zawiera ćwiczenia z Git i prostą aplikację konsolową w C#.
-Merge nie był fast-forward, ponieważ po utworzeniu gałęzi feature-max na gałęzi main pojawił się niezależny commit. Obie gałęzie rozwijały się równolegle dlatego git musiał utworzyć osobny commit scalający.
+﻿Odpowiedzi na pytania:
+1.Merge nie był fast-forward, ponieważ po utworzeniu gałęzi feature-max na gałęzi main pojawił się niezależny commit. Obie gałęzie rozwijały się równolegle dlatego git musiał utworzyć osobny commit scalający.
+2.Merge zachowuje rozgałęzienie historii i może tworzyć osobny commit scalający. Rebase przenosi commity na aktualny main, dzięki czemu historia jest bardziej liniowa i czytelna.
