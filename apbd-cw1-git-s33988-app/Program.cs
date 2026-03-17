@@ -15,6 +15,8 @@ if (!firstParsed || !secondParsed)
 
 int sum = StatisticsHelper.Sum(firstNumber, secondNumber);
 double average = StatisticsHelper.Average(firstNumber, secondNumber);
+double calculatedAverage = StatisticsHelper.CalculateAverage(new int[] { firstNumber, secondNumber });
 
 Console.WriteLine($"Sum: {sum}");
 Console.WriteLine($"Average: {average}");
+Console.WriteLine($"Calculated average from array: {calculatedAverage}");
